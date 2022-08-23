@@ -1,5 +1,6 @@
 function jump (a,b){
     duck = a +b 
+    console.log(duck)
 }
 
-console.log(jump(2,3))
+jump(1,2)
