@@ -6,3 +6,16 @@
 
 // Assume that beast and dish are always lowercase strings, and that each has at least two letters. beast and dish may contain hyphens and spaces, but these will not appear at the beginning or end of the string. They will not contain numerals.
 
+
+//parameters: two strings - each containing at least 2 letters, no numbers, lowercase, no special chars at the start or end, 
+//Results: Boolean True/false
+//Examples: Test.assertEquals(feast("great blue heron", "garlic      naan"), true)
+// Test.assertEquals(feast("chickadee", "chocolate cake"), true)
+// Test.assertEquals(feast("brown bear", "bear claw"), false)
+//   });
+
+//PsuedoCode: Get the start and end letters of the animals's name, and compare them in turn to the start and end letters of the dish they are brining. Return true or false based on the result.
+
+function feast(beast, dish) {
+    
+    }
