@@ -14,3 +14,11 @@
 // 0 <= h <= 23
 // 0 <= m <= 59
 // 0 <= s <= 59
+
+
+function past(h, m, s){
+   
+   // how many min in a hour how many seconds in a min and how many milisec in a sec
+    return (h *60*60*1000) + (m*60*1000) + (s*1000)
+      
+    }
