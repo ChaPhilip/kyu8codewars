@@ -13,7 +13,7 @@ function positiveSum(arr) {
         total = total + arr[i]
     }
   }
-  return total
+  console.log (total)
 }
 
-
+positiveSum([1,2,56,7])
