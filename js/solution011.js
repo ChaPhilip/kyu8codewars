@@ -9,3 +9,6 @@ function makeNegative(num) {
           return -num
             }
         }
+
+
+console.log(makeNegative(2))

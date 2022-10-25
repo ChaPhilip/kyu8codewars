@@ -4,7 +4,12 @@
 
 
 
-function doubleInteger(i) {
+// function doubleInteger(i) {
  
-    return i*2;
-  }
+//     return i*2;
+//   }
+
+let  doubleInteger = i => {console.log (i *2)}
+
+doubleInteger(2)
+doubleInteger(5)

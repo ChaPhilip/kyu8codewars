@@ -4,6 +4,11 @@
 
 //6, "I"     -> "IIIIII"
 
-function repeatStr (n, s) {
-    return s.repeat(n)
-  }
+// function repeatStr (n, s) {
+//     return s.repeat(n)
+//   }
+
+
+let repeatStr = (n,s) => {console.log (s.repeat(n))}
+
+repeatStr(2, "yup")
