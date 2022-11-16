@@ -5,6 +5,19 @@
 // https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript
 
 
+function fakeBin(x){
+  
+    let newStr = '';
+    for(let i = 0 ; i < x.length; i++){
+      if(Number(x[i]) >= 5){
+        newStr += '1'
+      }else{
+        newStr += '0'
+      }
+    }
+    return newStr
+  
+  }
 
 
 function fakeBin(x) {

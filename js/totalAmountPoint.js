@@ -33,13 +33,16 @@ function points(games) {
     return total
 }
 
+//
 let points = games => games.reduce((output,current)=> {
     return output += current[0] > current[2] ? 3 : current[0] === current[2] ? 1 : 0
 },0)
 
+
+//
 function points(games) {
-    return games.reduce((acc, c)=>{
-      const [x,y] = c.split(':').map(Number);
+    return games.reduce((acc, game)=>{
+      const [x,y] = game.split(':').map(Number);
       
       if(x > y){
         acc += 3;
@@ -53,4 +56,3 @@ function points(games) {
     
   }
 
-  

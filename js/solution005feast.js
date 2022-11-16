@@ -24,3 +24,5 @@ function feast(beast, dish) {
     
     }
     feast("brown bear", "bear claw")
+    feast("great blue heron", "garlic naan")
+    feast("chickadee", "chocolate cake")
