@@ -5,3 +5,4 @@
 // Return true if the array contains the value, false if not.
 
 // https://www.codewars.com/kata/57cc975ed542d3148f00015b/train/javascript
+
