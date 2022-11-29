@@ -12,3 +12,6 @@ const stringToNumber = function(str){
   }
   
   console.log(stringToNumber('12'))
+
+
+ 

@@ -13,7 +13,11 @@ function positiveSum(arr) {
         total = total + arr[i]
     }
   }
-  console.log (total)
+  console.log(total)
 }
 
-positiveSum([1,2,56,7])
+
+// let positiveSum = (arr)=> arr.reduce((sum,number)=> sum + (number > 0 ? number : 0 ),0)
+
+console.log(positiveSum([1,2,56,7]))
+console.log(positiveSum([1,-4,7,12]))

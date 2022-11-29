@@ -10,9 +10,7 @@
 // 1705 --> 18
 
 function century(year){
-    if(year <= 0){
-        return 1
-    }else{
+
         return Math.ceil(year/100)
     }
-}
+console.log(century(1705), 18, 'Testing for year 1705')
